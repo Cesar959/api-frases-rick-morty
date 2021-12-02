@@ -1,0 +1,24 @@
+{
+    "name": "user/api-frases-rick-morty",
+    "type": "projeto",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cesar dos Santos de Almeida"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "dev-master"
+    },
+    "autoload": {
+        "psr-4": 
+        { 
+            "Model\\" : "Class/Model",
+            "Controle\\" : "Class/Controle"
+        },
+
+        "files": ["config.php"]
+    }
+}
