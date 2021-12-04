@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentação da API Frases Rick and Morty </title>
+
+    <!-- Estilo Personalizado -->
+    <link rel="stylesheet" href="estilo.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body class="fundo">
+
+    <header>
+        <span>documentação</span>
+    </header>
+
+    <section id="banner" class="container">
+        <img src="banner-api-frases-rick-morty.jpg" alt="Imagem ilustrativa">
+    </section>
+
+    <main class="container">
+
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <p>Interface de Programação de Aplicações (português) cuja sigla API provém do Inglês Application Programming Interface, é um conjunto de rotinas e padrões estabelecidos por um software para a utilização das suas funcionalidades. Com o intuito de aprender como desenvolver uma api utilizando o Slim framework</p>
+        </section>
+
+        <section id="introducao">
+            <h2>Introdução</h2>
+            <p>API conta com 2 funcionalidades básicas: obter todos os registros e selecionar um unico registro. Até o momento não foi implementado um sistema de autenticação para utilizar a API, possibilitando assim a utilização pública da mesma.</p>
+        </section>
+
+        <section id="tecnologia">
+            <h2>Tecnologias</h2>
+            <ul>
+                <li>Slim framework</li>
+                <li>PHP</li>
+                <li>Composer</li>
+                <li>Json</li>
+            </ul>
+        </section>
+
+        <section id="metodos">
+            <h2>Metodos</h2>
+            <p><span class="color-verde">GET</span> - utilizado para pegar os dados</p>
+        </section>
+
+        <section id="rotas">
+            <h2>Rotas</h2>
+            <p>É a mesma rota para GET e GETid que utiliza o 'id' do registro como parâmetro. Alem disso o unico serviço disponivel até o momento é "frases".</p>
+
+            <div class="grupo-rotas">
+                <p class="descricao-rota">Traz todos os registros</p>
+                <div class="rota">
+                    <span class="metodo verde">GET</span>
+                    <p class="url borda-verde">http://csantosalmeida.rf.gd/api-frases-rick-morty/frases</p>
+                </div>
+
+                <p class="descricao-rota">Traz um registo específico (o caso em questão, vai trazer os dados referente ao 'id' 2)</p>
+                <div class="rota">
+                    <span class="metodo verde">GET</span>
+                    <p class="url borda-verde">http://csantosalmeida.rf.gd/api-frases-rick-morty/frases/2</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="mensagem-status">
+            <h2>Mensagens de Status</h2>
+            <p> <span class="color-azul">200 </span>: Requisição foi feita com sucesso.</p>
+            <p><span class="color-amarelo">404</span>: Falha na requisição, possivelmente por falta de envio de dados ou os dados solicitados não existe</p>
+            <p><span class="color-amarelo">400</span>: Recuso não localizado</p>
+            <p><span class="color-vermelho">500</span>: Erro interno do servidor.</p>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <h5>DESENVOLVIMENTO POR </h5>
+        <h5>CESAR DOS SANTOS DE ALMEIDA</h5>
+    </footer>
+    
+</body>
+</html>
