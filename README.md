@@ -99,7 +99,7 @@ Este projeto está licenciado sob a licença MIT - consulte o arquivo  [LICENSE.
 ## Links
 
 * [Demo do projeto](http://csantosalmeida.rf.gd/api-frases-rick-morty/) - Link da Demo
-* [Documentação](https://cesar959.github.io/api-crud/) - Link da Documentação
+* [Documentação](https://cesar959.github.io/api-frases-rick-morty/) - Link da Documentação
 
 
 
