@@ -123,6 +123,7 @@ header span
 #banner
 {
     margin-top: 30px;
+    text-align: center;
 }
 
 #banner img 
@@ -165,7 +166,7 @@ header span
 /* Sobre */
 
 
-/* Sobre */
+/* introdução */
 
 #introducao
 {
@@ -193,7 +194,7 @@ header span
     margin-top: 20px;
 }
 
-/* Sobre */
+/* introdução */
 
 
 /* Tecnologia */
